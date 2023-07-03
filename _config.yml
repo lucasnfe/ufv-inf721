@@ -1,0 +1,52 @@
+# Site settings
+course_name: INF 216 - Projeto e Implementação de Jogos Digitais
+course_description: "Este curso é uma introdução aprofundada às tecnologias e técnicas usadas na indústria de jogos hoje. Os alunos aprenderão a programar e criar vários jogos diferentes em C++, começando com jogos 2D e passando para 3D.  Este curso se concentra em informações práticas que são essenciais para aprender como ser um programador de videogame de sucesso. Serão discutidas técnicas fundamentais para a criação de gráficos 2D e 3D; física de colisão e movimento; inteligência artificial; efeitos e trilhas sonora; jogos multiplayer em rede e interface com o usuário. Os alunos também serão expostos a conceitos e práticas de game design, como mecânicas, dinâmicas, prototipação e teste."
+course_semester: "2023/2"
+
+baseurl: "/ufv-inf216-jogos" # the subpath of your site, e.g. /blog/
+url: "https://lucasnfe.github.io/" # the base hostname & protocol for your site
+
+schoolname: "Universidade Federal de Viçosa"
+schoolurl: "https://www.ufv.br"
+twitter_username: lucasnfe 
+
+address: |
+    Departamento de Informática
+    Universidade Federal de Viçosa
+    Viçosa, MG, Brasil
+
+# Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
+# google_analytics: UA-XXXXXXXX-X
+
+### Do not change the followings unless you know what you are doing ###
+
+# Build settings
+markdown: kramdown
+
+# Other options
+permalink: blog/:year/:month/:title
+excerpt_separator: "<!--more-->"
+
+include: ['_images', '_css']
+exclude: ['develop']
+
+dateformat: "%m/%d/%Y"
+
+future: true
+collections:
+    events:
+        output: true
+    lectures:
+        output: true
+    assignments:
+        output: true
+    announcements:
+        output: false
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "assignments"
+    values:
+      layout: "assignment"

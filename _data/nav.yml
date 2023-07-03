@@ -1,0 +1,24 @@
+items:
+- url: /
+  name: Home
+  icon_class: fa fa-home fa-lg
+
+- url: /calendario/
+  name: Calendário
+  icon_class: fas fa-calendar-alt
+
+- url: /aulas/
+  name: Aulas
+  icon_class: fas fa-book-reader
+
+- url: /praticas/
+  name: Práticas
+  icon_class: fas fa-user-graduate
+
+- url: /projeto/
+  name: Projeto
+  icon_class: fas fa-user-graduate
+
+- url: /materiais/
+  name: Materiais
+  icon_class: fas fa-book

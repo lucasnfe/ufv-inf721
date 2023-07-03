@@ -1,0 +1,79 @@
+---
+layout: default
+---
+
+<div class="home">
+
+    <h1>Bem vinda(o) à INF216!</h1>
+    <p>{{ site.course_description }}</p>
+
+    {% include announcements.html %}
+    <br />
+    
+    {{ content }}
+
+    {% if site.data.previous_offering and site.data.previous_offering.offerings and site.data.previous_offering.offerings.size > 0 %}
+    <h2>Semestres Anteriores</h2>
+    <ul class="previous-offerings">
+    {% for offer in site.data.previous_offering.offerings %}
+    <li><a href="{{ offer.url }}">{{offer.title}}</a></li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+    <div>
+        <div style="width:100%; float: left">
+            <!-- <h2>Instructors</h2> -->
+            <!-- <div class="image--cover-container">
+                <img src="{{site.data.people.instructor.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                <p>{{site.data.people.instructor.name}}</p>
+            </div> -->
+
+            <div class="profile-pic-gallary">
+                <h2>Professor</h2>
+                {% for ins in site.data.people.instructors %}
+                <div class="image--cover-container">
+                    <div>
+                        <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                    </div>
+                    {% if ins.webpage %}
+                    <div>
+                        <ul style="list-style-type: none; list-style-position: inside; padding-left: 0; text-align: left;">
+                            <li><a href="{{ ins.webpage }}">{{ins.name}}</a></li>
+                            <li>{{ins.email}}</li>
+                            <li>Sala {{ins.office}}</li>
+                        </ul>
+                    </div>
+                    {% else %}
+                    <div>
+                        <ul style="list-style-type: none; list-style-position: inside; padding-left: 0; text-align: left;">
+                            <li>{{ins.name}}</li>
+                            <li>{{ins.email}}</li>
+                            <li>Sala {{ins.office}}</li>
+                        </ul>
+                    </div>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- {% if site.data.people.teaching_assistants %} -->
+        <!-- <div style="width:20%; float: left">
+            <div class="profile-pic-gallary ">
+                <h2>Teaching Assistants</h2>
+                {% for ta in site.data.people.teaching_assistants %}
+                <div class="image--cover-container">
+                    <img src="{{ta.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                    {% if ta.webpage %}
+                    <p><a href="{{ ta.webpage }}">{{ta.name}}</a></p>
+                    {% else %}
+                    <p>{{ta.name}}</p>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+        </div> -->
+        <!-- {% endif %} -->
+    </div>
+</div>
