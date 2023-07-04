@@ -8,12 +8,12 @@ permalink: /materiais/
 
 ## Bibliografia
 
- * Game Programmin in C++, Sanjay Madhav
+ * Deep Learning: A Visual Approach, Andrew Glassner 
 
-## Materiais Adicionais
+<!-- ## Materiais Adicionais -->
 
-* [Material #1](http://www.example.com/): exemplo 1!
+<!-- * [Material #1](http://www.example.com/): exemplo 1!
 * [Material #2](http://www.example.com/): exemplo 2!
 * [Material #3](http://www.example.com/): exemplo 3!
 * [Material #4](http://www.example.com/): exemplo 4!
-* [Material #5](http://www.example.com/): exemplo 5!
+* [Material #5](http://www.example.com/): exemplo 5! -->

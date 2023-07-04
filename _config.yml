@@ -1,6 +1,6 @@
 # Site settings
 course_name: INF721 - Aprendizado em Redes Neurais Profundas
-course_description: "Esse curso é uma introdução aos fundamentos e técnicas modernas de Deep Learning, possibilitando-os projetar e implementar redes neurais profundas para classificação e regressão de dados estruturados (tabulares) e não-estruturados (imagens, texto, áudio, etc)."
+course_description: "Esse curso é uma introdução aos fundamentos e técnicas modernas de Deep Learning, com o objetivo de possibilitar aos alunos projetar e implementar redes neurais profundas para classificação e regressão de dados estruturados (tabulares) e não-estruturados (imagens, texto, áudio, etc)."
 course_semester: "2023/2"
 
 baseurl: "/ufv-inf721" # the subpath of your site, e.g. /blog/

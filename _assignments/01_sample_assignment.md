@@ -1,4 +1,4 @@
----
+<!-- ---
 type: assignment
 date: 2018-09-26T4:00:00+4:30
 title: 'Prática #1 - Prática Exemplo'
@@ -10,4 +10,4 @@ due_event:
     date: 2018-11-13T23:59:00+3:30
     description: 'Entrega Prática #1'
 ---
-Este é um exemplo de trabalho prático.
+Este é um exemplo de trabalho prático. -->
