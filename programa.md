@@ -4,6 +4,15 @@ title: Programa Analítico
 permalink: /programa/
 ---
 
+## Objetivo
+
+Apresentar aos alunos os fundamentos e técnicas modernas de Deep Learning, possibilitando-os projetar e implementar redes neurais profundas para classificação e regressão de dados estruturados (tabulares) e não-estruturados (imagens, texto, áudio, etc). 
+
+## Carga Horária
+
+* **Número de créditos**: 4
+* **Carga horária semestral**: 60 horas 
+
 ## Conteúdo Programático
 
 1. **Introdução**
