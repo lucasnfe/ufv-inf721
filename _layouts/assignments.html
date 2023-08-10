@@ -4,10 +4,45 @@ layout: page
 
 {{ content }}
 
+<h2>Testes (10%)</h2>
+
+<p>Pequenas avaliações não-cumulativas (sobre apenas um tópico) em sala de aula com duração de 1 hora e 40 minutos.</p>
+
+<ul id="archive">
+  {% for asg in site.quizzes %}
+        <li class="archiveposturl" style="background: transparent">
+          <span>
+            {% if asg.hide_from_announcments %}
+            {{ asg.description }}
+            {% else %}
+              <a href="{{ asg.url | prepend: site.baseurl}}">{{ asg.description }}</a>
+            {% endif %}
+          </span>
+        <strong style="font-size:100%; font-family: 'Titillium Web', sans-serif; float:right">
+          {% if asg.attachment %}
+        <a title="Download problems (pdf)" href="{{ asg.pdf | prepend: site.baseurl }}"><i class="fas fa-file-pdf"></i></a> 
+        
+          &nbsp; <a title="Download attachments (zip)" href="{{ asg.attachment | prepend: site.baseurl }}"><i class="fas fa-file-archive"></i></a>
+        {% endif %}
+        </strong> 
+        </li>
+  {% endfor %}
+  </ul>
+
+<h2>Trabalhos Práticos (40%)</h2>
+
+<p>Implementação em Python e Jupyter Notebook de modelos neurais de regressão ou classificação com conjuntos de dados clássicos pré-definidos, com duração de 1-2 semanas.</p>
+
 <ul id="archive">
 {% for asg in site.assignments %}
       <li class="archiveposturl" style="background: transparent">
-        <span><a href="{{ asg.url | prepend: site.baseurl}}">{{ asg.title }}</a></span>
+        <span>
+          {% if asg.hide_from_announcments %}
+          {{ asg.title }}
+          {% else %}
+            <a href="{{ asg.url | prepend: site.baseurl}}">{{ asg.title }}</a>
+          {% endif %}
+        </span>
       <strong style="font-size:100%; font-family: 'Titillium Web', sans-serif; float:right">
         {% if asg.attachment %}
       <a title="Download problems (pdf)" href="{{ asg.pdf | prepend: site.baseurl }}"><i class="fas fa-file-pdf"></i></a> 
@@ -18,3 +53,32 @@ layout: page
       </li>
 {% endfor %}
 </ul>
+
+<h2>Projeto Final (20%)</h2>
+
+<p>Proposta, implementação e avaliação de um modelo neural para um problema de aprendizado de interesse do aluno, com duração aproximada de 5 semanas.</p>
+
+<ul id="archive">
+  {% for asg in site.projects %}
+        <li class="archiveposturl" style="background: transparent">
+          <span>
+            {% if asg.hide_from_announcments %}
+            {{ asg.title }}
+            {% else %}
+              <a href="{{ asg.url | prepend: site.baseurl}}">{{ asg.title }}</a>
+            {% endif %}
+          </span>
+          <strong style="font-size:100%; font-family: 'Titillium Web', sans-serif; float:right">
+          {% if asg.attachment %}
+        <a title="Download problems (pdf)" href="{{ asg.pdf | prepend: site.baseurl }}"><i class="fas fa-file-pdf"></i></a> 
+        
+          &nbsp; <a title="Download attachments (zip)" href="{{ asg.attachment | prepend: site.baseurl }}"><i class="fas fa-file-archive"></i></a>
+        {% endif %}
+        </strong> 
+        </li>
+  {% endfor %}
+  </ul>
+
+  <h2>Participação (10%)</h2>
+
+  <p>Questionários online respondendo a perguntas em sala de aula com duração de 5-15 minutos.</p>

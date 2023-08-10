@@ -2,7 +2,7 @@
 type: assignment
 date: 2023-10-12T08:00
 title: 'P5: Redes Neurais Recorrentes'
-permalink: /projetos/p5-rnn/
+permalink: /trabalhos-praticos/p5-rnn/
 hide_from_announcments: true
 # pdf: /static_files/assignments/asg.pdf
 # attachment: /static_files/assignments/asg.zip
@@ -12,3 +12,15 @@ due_event:
     date: 2023-10-30T07:30
     description: 'Entrega P5: Redes Neurais Recorrentes'
 ---
+
+## Introdução
+
+## Objetivo
+
+## Instruções
+
+## Submissão
+
+## Barema
+
+## Referências

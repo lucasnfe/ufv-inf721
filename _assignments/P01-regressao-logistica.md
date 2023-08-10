@@ -2,7 +2,7 @@
 type: assignment
 date: 2023-08-28T08:00
 title: 'P1: Regressão Logística'
-permalink: 'projetos/p1-regressao-logistica/'
+permalink: 'trabalhos-praticos/p1-regressao-logistica/'
 hide_from_announcments: true
 # pdf: /static_files/assignments/asg.pdf
 # attachment: /static_files/assignments/asg.zip
@@ -13,7 +13,7 @@ due_event:
     description: 'Entrega P1: Regressão Logística'
 ---
 
-<!-- ## Introdução
+## Introdução
 
 ## Objetivo
 
@@ -23,4 +23,4 @@ due_event:
 
 ## Barema
 
-## Referências -->
+## Referências

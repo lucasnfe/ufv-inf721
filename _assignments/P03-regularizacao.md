@@ -2,7 +2,7 @@
 type: assignment
 date: 2023-09-27T08:00
 title: 'P3: Regularização'
-permalink: /projetos/p3-regularizacao/
+permalink: /trabalhos-praticos/p3-regularizacao/
 hide_from_announcments: true
 # pdf: /static_files/assignments/asg.pdf
 # attachment: /static_files/assignments/asg.zip
@@ -12,3 +12,15 @@ due_event:
     date: 2023-09-27T07:30
     description: 'Entrega P3: Regularização'
 ---
+
+## Introdução
+
+## Objetivo
+
+## Instruções
+
+## Submissão
+
+## Barema
+
+## Referências

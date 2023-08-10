@@ -1,7 +1,7 @@
 ---
 type: raw_event
 date: 2023-08-28T10:50
-description: 'Q1: Regressão Logística'
+description: 'T1: Regressão Logística'
 hide_from_announcments: true
 ---
 <!-- **Tópicos:**

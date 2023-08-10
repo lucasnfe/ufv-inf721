@@ -54,17 +54,3 @@ permalink: /programa/
 10. **Modelos Generativos**
 
     Generative adversarial networks; variational autoencoders (VAEs); vector-quantized variational autoencoders (VQ-VAEs); diffusion models.
-
-## Avaliação
-
-**Testes (30%)**<br>
-Pequenas avaliações não-cumulativas (sobre apenas um tópico) em sala de aula com duração de 1 hora e 40 minutos.
-
-**Trabalhos práticos (40%)**<br>
-Implementação em Python e Jupyter Notebook de modelos neurais de regressão ou classificação com conjuntos de dados clássicos pré-definidos, com duração de 1-2 semanas.
-
-**Projeto final (20%)**<br>
-Proposta, implementação e avaliação de um modelo neural para um problema de aprendizado de interesse do aluno, com duração aproximada de 5 semanas.
-
-**Participação (10%)**<br>
-Questionários online respondendo a perguntas em sala de aula com duração de 5-15 minutos.

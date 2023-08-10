@@ -1,8 +1,9 @@
 ---
-type: assignment
-date: 2023-11-29T08:00
-title: 'Projeto Final: Lançamento'
-permalink: /projeto-final-lancamento/
+layout: assignment
+type: project
+date: 2023-11-27T08:00
+title: 'PF: Apresentação'
+permalink: projeto/apresentacao/
 hide_from_announcments: true
 # pdf: /static_files/assignments/asg.pdf
 # attachment: /static_files/assignments/asg.zip

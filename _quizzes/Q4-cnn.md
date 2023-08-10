@@ -2,7 +2,7 @@
 type: raw_event
 date: 2023-10-02T10:50
 name: Q4
-description: 'Q4: Redes Neurais Convolucionais'
+description: 'T4: Redes Neurais Convolucionais'
 hide_from_announcments: true
 ---
 <!-- **Tópicos:**

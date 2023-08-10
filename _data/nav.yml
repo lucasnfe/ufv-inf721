@@ -15,8 +15,8 @@ items:
   name: Aulas
   icon_class: fas 
 
-- url: /projetos/
-  name: Projetos
+- url: /avaliacao/
+  name: Avaliação
   icon_class: fas 
 
 - url: /materiais/

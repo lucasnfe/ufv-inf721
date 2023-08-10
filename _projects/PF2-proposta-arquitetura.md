@@ -1,8 +1,9 @@
 ---
-type: assignment
-date: 2023-12-01T08:00
-title: 'Projeto Final: Proposta Arquitetura'
-permalink: /projeto-final-checkpoint/
+layout: assignment
+type: project
+date: 2023-11-06T10:00
+title: 'PF: Proposta de Arquitetura'
+permalink: /projeto/proposta-arquitetura/
 hide_from_announcments: true
 # pdf: /static_files/assignments/asg.pdf
 # attachment: /static_files/assignments/asg.zip
@@ -10,6 +11,6 @@ hide_from_announcments: true
 due_event: 
     type: due
     date: 2023-11-06T10:00
-    description: 'Entrega Proposta de Arquitetura'
+    description: 'Entrega PF: Proposta de Arquitetura'
 ---
 
