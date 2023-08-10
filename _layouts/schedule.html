@@ -11,24 +11,69 @@ layout: default
 <div class="home" style="font-size: 0.8em;">
     <ul class="responsive-table" style="margin-left: 0;">
         <li class="table-header">
-            <div class="col col-1">Evento</div>
-            <div class="col col-1-2">Data</div>
-            <div class="col col-2">Descrição</div>
-            <div class="col col-4">Material</div>
-        </li>
-        
-        {% assign all_assignment_dues = site.assignments | map: "due_event" %}
+            <div style="display: flex; align-items: center; justify-content: space-evenly; text-align: center; width: 100%;">
+                <div style="width: 15%;">Semana</div>
+                <div style="display: flex;  width: 85%;">
+                    <div style="width: 20%; text-align: center;">Data</div>
+                    <div style="width: 40%; text-align: left; margin: 0px 20px 0px 20px">Evento</div>
+                    <div style="width: 40%; text-align: left; margin: 0px 20px 0px 20px">Projetos</div>
+                </div>
+            </div>
+        </li>        
 
+        <!-- Merge all events in a single array -->
         {% assign all_events = site.events | concat: site.lectures %}
-        {% assign all_events = all_events | concat: site.assignments %}
-        {% assign all_events = all_events | concat: all_assignment_dues %}
         {% assign all_events_sorted = all_events | sort: 'date' %}
 
-        {% for event in all_events_sorted %}
-        <li class="table-row table-row-{{ event.type}}">
-            {% include schedule_row_{{ event.type }}.html event=event %}
+        <!-- Get all due dates -->
+        {% assign all_assignment_dues = site.assignments | map: "due_event" %}
+        {% assign all_assignment_dues = all_assignment_dues | concat: site.quizzes %}
+
+        <!-- Initialize variables to track start and end of weeks -->
+        {% assign start_time = site.semester_start | date: '%s' %}
+        {% assign end_time = site.semester_end | date: '%s' %}
+        
+        <!-- Count number of weeks in the course -->
+        {% assign delta_time = end_time | minus: start_time %}
+        {% assign delta_weeks = delta_time | divided_by: 3600 | divided_by: 24 | divided_by: 7 %}
+    
+        {% assign end_time = start_time | plus: 345600 %}
+
+        <!-- Create one table row for each week of the semester -->
+        {% for week in (1..delta_weeks) %}
+        <li class="table-row">
+            {% assign week_start = start_time | date: "%s" %}
+            {% assign week_end = end_time | date: "%s" %}
+
+            <div style="display: flex; align-items: center; text-align: center; width: 100%;">
+                <div style="width: 15%;"><b>{{week}}</b></div>
+                <div style="width: 85%;">
+                    <!-- Create one row for event in this week -->
+                    {% for event in all_events_sorted %}
+
+                        <!-- Check if event is in week i -->
+                        {% assign event_date = event.date | date: "%s" %}
+                        {% if event_date >= week_start and event_date <= week_end %}
+                        <!-- Check for due dates -->
+                            {% assign due = Nil %}
+                            {% for assignment_due in all_assignment_dues %}
+                                {% assign due_date = assignment_due.date | date: site.dateformat %}
+                                {% assign event_date = event.date | date: site.dateformat  %}
+                                {% if due_date == event_date %}
+                                    {% assign due = assignment_due %}
+                                {% endif %}
+                            {% endfor %}  
+                            <div style="display: flex; justify-content: space-evenly; text-align: left;">
+                                {% include schedule_row_{{ event.type }}.html event=event week=week due=due %}
+                            </div>
+                        {% endif %}
+                    {% endfor %}                    
+                </div>
+            </div>
+
+            {% assign start_time = start_time | plus: 604800 %}
+            {% assign end_time = end_time | plus: 604800 %}
         </li>
         {% endfor %}
-
     </ul>
 </div>

@@ -111,6 +111,8 @@ GEM
       commonmarker (~> 0.17.6)
       jekyll-commonmark (~> 1.2)
       rouge (>= 2.0, < 4.0)
+    jekyll-date-localization (0.0.1)
+      i18n
     jekyll-default-layout (0.1.4)
       jekyll (~> 3.0)
     jekyll-feed (0.13.0)
@@ -246,6 +248,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-date-localization
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
   tzinfo (~> 1.2)
@@ -253,4 +256,4 @@ DEPENDENCIES
   wdm (~> 0.1.1)
 
 BUNDLED WITH
-   2.1.4
+   2.3.8

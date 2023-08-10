@@ -496,3 +496,11 @@ a.tosu {
         border-bottom: 0 !important;
     }
 }
+
+.embed-youtube {
+    margin: 0px 0px 20px 0px;
+    height: 315px;
+    width: 560;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+}
