@@ -45,16 +45,20 @@ permalink: /programa/
 
 8. **Redes Neurais Recorrentes**
 
-    Processamento de linguagem natural, redes neurais recorrentes (RNNs), explosão e esvanecimento de gradientes, gated recurrent unit (GRU), long short term memory (LSTM), RNNs Bidirecionais.
+    Processamento de linguagem natural, redes neurais recorrentes (RNNs), explosão e esvanecimento de gradientes, gated recurrent unit (GRU), long short term memory (LSTM), RNNs bidirecionais.
 
 9. **Mecanismos de Atenção e Transformers**
 
-    Modelos encoder-decoder;  autoatenção; atenção multi-head; transformers, estudo de casos (BERT e GPT).
+    Modelos encoder-decoder; autoatenção; atenção multi-head; transformers, estudo de casos (BERT e GPT).
+
+10. **Modelos Generativos**
+
+    Generative adversarial networks; variational autoencoders (VAEs); vector-quantized variational autoencoders (VQ-VAEs); diffusion models.
 
 ## Avaliação
 
-**Provas (30%)**<br>
-Avaliações em sala de aula sobre aspectos teóricos da disciplina com duração de 1 hora e 40 minutos.
+**Testes (30%)**<br>
+Pequenas avaliações não-cumulativas (sobre apenas um tópico) em sala de aula com duração de 1 hora e 40 minutos.
 
 **Trabalhos práticos (40%)**<br>
 Implementação em Python e Jupyter Notebook de modelos neurais de regressão ou classificação com conjuntos de dados clássicos pré-definidos, com duração de 1-2 semanas.

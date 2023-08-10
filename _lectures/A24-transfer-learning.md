@@ -1,9 +1,9 @@
 ---
 type: lecture
-date: 2023-11-22T14:00
-index: 29
-title: Aplicações em NLP
-tldr: "Apresentação de diversos problemas e modelos de estado da arte em NLP."
+date: 2023-11-01T14:00
+index: 24
+title: Transferência de Aprendizado
+tldr: "Ajuste fino de redes neurais pré-treinadas."
 # thumbnail: /static_files/presentations/lec.jpg
 links: 
     - url: /static_files/presentations/lec.zip
@@ -15,4 +15,3 @@ links:
 hide_from_announcments: true
 ---
 **Leituras Sugeridas:**
-

@@ -1,9 +1,9 @@
 ---
 type: lecture
-date: 2023-11-06T14:00
-index: 25
-title: Autoencoders
-tldr: "Aprendendo representações vetoriais de maneira não-supervisionada."
+date: 2023-11-22T14:00
+index: 29
+title: Aplicações em PLN
+tldr: "Apresentação de diversos problemas e modelos de estado da arte em processamenteo de linguagem natural."
 # thumbnail: /static_files/presentations/lec.jpg
 links: 
     - url: /static_files/presentations/lec.zip
@@ -15,3 +15,4 @@ links:
 hide_from_announcments: true
 ---
 **Leituras Sugeridas:**
+

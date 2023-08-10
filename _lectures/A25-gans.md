@@ -1,7 +1,7 @@
 ---
 type: lecture
-date: 2023-11-01T14:00
-index: 24
+date: 2023-11-06T14:00
+index: 25
 title: Generative Adversarial Networks (GANs)
 tldr: "GANs como modelos generativos e suas aplicações."
 # thumbnail: /static_files/presentations/lec.jpg
