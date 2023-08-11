@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2023-10-18T14:00
+date: 2023-10-25T14:00
 index: 20
 title: Mecanismos de Atenção
 tldr: "Melhorando o desemepenho de modelos sequence-to-sequence com mecanismos de atenção."

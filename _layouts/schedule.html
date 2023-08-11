@@ -11,12 +11,13 @@ layout: default
 <div class="home" style="font-size: 0.8em;">
     <ul class="responsive-table" style="margin-left: 0;">
         <li class="table-header">
-            <div style="display: flex; align-items: center; justify-content: space-evenly; text-align: center; width: 100%;">
-                <div style="width: 15%;">Semana</div>
-                <div style="display: flex;  width: 85%;">
-                    <div style="width: 20%; text-align: center;">Data</div>
-                    <div style="width: 40%; text-align: left; margin: 0px 20px 0px 20px">Evento</div>
-                    <div style="width: 40%; text-align: left; margin: 0px 20px 0px 20px">Projetos</div>
+            <div style="display: flex; align-items: center; width: 100%;">
+                <div style="width: 10%;">Semana</div>
+                <div style="display: flex; width: 90%;">
+                    <div style="width: 10%;">Data</div>
+                    <div style="width: 30%; margin: 0px 0px 0px 20px">Evento</div>
+                    <div style="width: 30%; margin: 0px 0px 0px 20px">Testes</div>
+                    <div style="width: 30%; margin: 0px 0px 0px 20px">Trabalhos Práticos</div>
                 </div>
             </div>
         </li>        
@@ -29,7 +30,8 @@ layout: default
         {% assign all_assignment_dues = site.assignments | map: "due_event" %}
         {% assign all_projects_dues = site.projects | map: "due_event" %}
         {% assign all_assignment_dues = all_assignment_dues | concat: all_projects_dues %}
-        {% assign all_assignment_dues = all_assignment_dues | concat: site.quizzes %}
+        
+        {% assign all_quizzes_dues = site.quizzes %}
 
         <!-- Initialize variables to track start and end of weeks -->
         {% assign start_time = site.semester_start | date: '%s' %}
@@ -47,26 +49,38 @@ layout: default
             {% assign week_start = start_time | date: "%s" %}
             {% assign week_end = end_time | date: "%s" %}
 
-            <div style="display: flex; align-items: center; text-align: center; width: 100%;">
-                <div style="width: 15%;"><b>{{week}}</b></div>
-                <div style="width: 85%;">
+            <div style="display: flex; align-items: center; width: 100%;">
+                <div style="width: 10%;"><b>{{week}}</b></div>
+                <div style="width: 90%;">
                     <!-- Create one row for event in this week -->
                     {% for event in all_events_sorted %}
 
                         <!-- Check if event is in week i -->
                         {% assign event_date = event.date | date: "%s" %}
                         {% if event_date >= week_start and event_date <= week_end %}
-                        <!-- Check for due dates -->
-                            {% assign due = Nil %}
+                            
+                            <!-- Check for assignment due dates -->
+                            {% assign assignment_due_match = Nil %}
                             {% for assignment_due in all_assignment_dues %}
                                 {% assign due_date = assignment_due.date | date: site.dateformat %}
                                 {% assign event_date = event.date | date: site.dateformat  %}
                                 {% if due_date == event_date %}
-                                    {% assign due = assignment_due %}
+                                    {% assign assignment_due_match = assignment_due %}
                                 {% endif %}
                             {% endfor %}  
-                            <div style="display: flex; justify-content: space-evenly; text-align: left;">
-                                {% include schedule_row_{{ event.type }}.html event=event week=week due=due %}
+
+                            <!-- Check for assignment due dates -->
+                            {% assign quizz_due_match = Nil %}
+                            {% for quiz_due in all_quizzes_dues %}
+                                {% assign due_date = quiz_due.date | date: site.dateformat %}
+                                {% assign event_date = event.date | date: site.dateformat  %}
+                                {% if due_date == event_date %}
+                                    {% assign quizz_due_match = quiz_due %}
+                                {% endif %}
+                            {% endfor %}  
+                            
+                            <div style="display: flex; text-align: left;">
+                                    {% include schedule_row_{{ event.type }}.html event=event week=week assignment_due=assignment_due_match quizz_due=quizz_due_match %}
                             </div>
                         {% endif %}
                     {% endfor %}                    

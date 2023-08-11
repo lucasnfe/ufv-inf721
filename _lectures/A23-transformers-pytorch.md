@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2023-10-30T16:00
+date: 2023-11-06T16:00
 index: 23
 title: Transformers em Pytorch
 tldr: "Aula prática sobre implementação de Transformers com Pytorch."

@@ -10,7 +10,7 @@ hide_from_announcments: true
 due_event: 
     type: due
     date: 2023-10-30T07:30
-    description: 'Entrega P5: Redes Neurais Recorrentes'
+    description: 'Entrega P5: RNNs'
 ---
 
 ## Introdução

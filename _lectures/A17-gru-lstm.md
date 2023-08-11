@@ -1,7 +1,7 @@
 ---
 type: lecture
-date: 2023-10-09T16:00
-index: 17 (Remoto)
+date: 2023-10-16T16:00
+index: 17
 title: GRU e LSTM
 tldr: "Arquiteturas recorrentes avançadas para processamento de sequências longas."
 # thumbnail: /static_files/presentations/lec.jpg

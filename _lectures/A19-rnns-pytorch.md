@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2023-10-16T16:00
+date: 2023-10-23T16:00
 index: 19
 title: RNNs em Pytorch
 tldr: "Aula prática sobre implementação de RNNs com Pytorch."

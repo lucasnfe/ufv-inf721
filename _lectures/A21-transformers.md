@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2023-10-23T16:00
+date: 2023-10-30T16:00
 index: 21
 title: Transformers
 tldr: "Transformers para problemas de aprendizado com sequências."

@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2023-11-01T14:00
+date: 2023-11-08T14:00
 index: 24
 title: Transferência de Aprendizado
 tldr: "Ajuste fino de redes neurais pré-treinadas."

@@ -1,15 +1,15 @@
-<div style="width: 20%; text-align: center;" data-label="Date">
+<div style="width: 10%;" data-label="Date">
     {{ include.event.date | date: "%d/%m" }}
 </div>
 
-<div style="width: 40%; margin: 0px 20px 0px 20px" data-label="Event">
+<div style="width: 30%; margin: 0px 0px 0px 20px" data-label="Event">
     <b>A{{ include.event.index }}</b>: {{ include.event.title }}
     <!-- <div class="schedule-lecture-links">
     {% include lecture_links.html lecture=include.event %}
     </div> -->
 </div>
 
-<div style="width: 40%; margin: 0px 20px 0px 20px" class="markdown-content" data-label="Course Material">
+<div style="width: 30%;  margin: 0px 0px 0px 20px" class="markdown-content" data-label="Course Material">
     <!-- {% if include.event.suggested_readings %}
     <p style="margin-bottom: 2px">Suggested Readings:</p>
     <ul>
@@ -20,7 +20,24 @@
         {% endfor %}
     </ul>
     {% endif %} -->
-    {% if include.due %} 
-        <b>{{include.due.description}}</b>  
+    {% if include.quizz_due %} 
+        <b>{{include.quizz_due.description}}</b> 
     {% endif %}
 </div>
+
+<div style="width: 30%;  margin: 0px 0px 0px 20px" class="markdown-content" data-label="Course Material">
+    <!-- {% if include.event.suggested_readings %}
+    <p style="margin-bottom: 2px">Suggested Readings:</p>
+    <ul>
+        {% for m in include.event.suggested_readings %}
+        <li class="raw_li">{% if m.url %}<a href="{{ m.url }}">{{ m.title }}</a>{% else %}{{ m.title }}{%
+            endif %}</li>
+
+        {% endfor %}
+    </ul>
+    {% endif %} -->
+    {% if include.assignment_due %} 
+        <b>{{include.assignment_due.description}}</b> 
+    {% endif %}
+</div>
+

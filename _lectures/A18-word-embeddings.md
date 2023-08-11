@@ -1,7 +1,7 @@
 ---
 type: lecture
-date: 2023-10-11T14:00
-index: 18 (Remoto)
+date: 2023-10-18T14:00
+index: 18
 title: Representação de Palavras 
 tldr: "Utilizando RNNs para representação de palavras (word embeddings) e processamento de textos."
 # thumbnail: /static_files/presentations/lec.jpg

@@ -2,8 +2,8 @@
 type: lecture
 date: 2023-09-13T16:00
 index: 10
-title: Métodos de Otimização Avançados
-tldr: "Melhorando o desempenho do Gradiente Descente: Mini-batch, Momentum, AdaGrad, RMSProp, Adam."
+title: Otimização
+tldr: "Algoritmos de otimização avançados: Mini-batch, Momentum, AdaGrad, RMSProp, Adam."
 # thumbnail: /static_files/presentations/lec.jpg
 links: 
     - url: /static_files/presentations/lec.zip

@@ -1,7 +1,7 @@
 ---
 layout: assignment
 type: project
-date: 2023-10-09T23:59
+date: 2023-10-11T23:59
 title: 'PF: Proposta de Problema'
 permalink: projeto/proposta-problema/
 hide_from_announcments: true
@@ -10,6 +10,6 @@ hide_from_announcments: true
 # solutions: /static_files/assignments/asg_solutions.pdf
 due_event: 
     type: due
-    date: 2023-10-09T23:59
+    date: 2023-10-11T23:59
     description: 'Entrega PF: Proposta de Problema'
 ---

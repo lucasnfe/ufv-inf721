@@ -1,8 +1,8 @@
 ---
 type: lecture
-date: 2023-11-08T14:00
+date: 2023-11-20T14:00
 index: 26
-title: Variational Autoencoders (VAEs)
+title: Variational Autoencoders
 tldr: "VAEs como modelos generativos e suas aplicações."
 # thumbnail: /static_files/presentations/lec.jpg
 links: 

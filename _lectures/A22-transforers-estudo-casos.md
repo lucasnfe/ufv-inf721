@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2023-10-25T14:00
+date: 2023-11-01T14:00
 index: 22
 title: Estudo de Casos de Transformers
 tldr: "BERT e GPT."
