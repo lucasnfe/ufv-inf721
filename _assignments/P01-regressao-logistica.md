@@ -1,6 +1,6 @@
 ---
 type: assignment
-date: 2023-08-28T08:00
+date: 2023-09-06T07:30
 title: 'P1: Regressão Logística'
 permalink: 'trabalhos-praticos/p1-regressao-logistica/'
 hide_from_announcments: true
@@ -9,7 +9,7 @@ hide_from_announcments: true
 # solutions: /static_files/assignments/asg_solutions.pdf
 due_event: 
     type: due
-    date: 2023-09-04T07:30
+    date: 2023-09-06T07:30
     description: 'Entrega P1: Regressão Logística'
 ---
 

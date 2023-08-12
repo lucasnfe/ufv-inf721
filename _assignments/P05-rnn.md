@@ -1,6 +1,6 @@
 ---
 type: assignment
-date: 2023-10-12T08:00
+date: 2023-11-06T07:30
 title: 'P5: Redes Neurais Recorrentes'
 permalink: /trabalhos-praticos/p5-rnn/
 hide_from_announcments: true
@@ -9,7 +9,7 @@ hide_from_announcments: true
 # solutions: /static_files/assignments/asg_solutions.pdf
 due_event: 
     type: due
-    date: 2023-10-30T07:30
+    date: 2023-11-06T07:30
     description: 'Entrega P5: RNNs'
 ---
 
