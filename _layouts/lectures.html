@@ -17,14 +17,15 @@ layout: page
         {% endif %}
         <div class="content">
             <span style="font-weight: bold;">A{{lecture.index}}: {{ lecture.title }}</span><br>
-    
             {{ lecture.tldr }}
+            {% if lecture.hide_from_announcments == false %}
             <br/>
+            {% endif %}
             <strong>
             {% include lecture_links.html lecture=lecture %}
             </strong>
     
-            {% if lecture.content != '' %}
+            {% if lecture.content != '' and lecture.hide_from_announcments == false %}
             <br/>
             <div class="markdown-content" style="margin-top: 3px;">
             {{ lecture.content }}
