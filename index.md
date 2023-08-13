@@ -8,4 +8,4 @@ layout: home
 {{site.lectures_hours}}
 
 #### **Atendimento**
-CCE401B, Seunga-feira, 16:00-17:40h
+CCE401B, Segunda-feira, 16:00-17:40h
