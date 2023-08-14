@@ -20,7 +20,7 @@
     <li class="no-p-margin">
         {% if n.type %}
             {% if n.type == 'lecture' %}
-                Nova aula publicada: {{ n.title }}
+                Nova aula publicada: A{{ n.index }}-{{ n.title }}
                 {% include lecture_links.html lecture=n %}
             {% elsif n.type == 'assignment' %}
                 Nova trabalho prático publicado: [<a href="{{ n.url | prepend: site.baseurl }}">{{ n.title }}</a>]

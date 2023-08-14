@@ -6,13 +6,10 @@ title: Introdução
 tldr: "Logística da disciplina e visão geral de aprendizagem de máquina com redes neurais."
 # thumbnail: /static_files/presentations/lec.jpg
 links: 
-    - url: /static_files/presentations/lec.zip
-      name: notas
-    # - url: /static_files/presentations/code.zip
-    #   name: código
-    - url: https://google.com
+    - url: /static_files/slides/A01-introducao.pdf
       name: slides
-hide_from_announcments: true
+    - url: https://www.youtube.com/watch?v=R7Ax7jJNuDU&ab_channel=LucasN.Ferreira
+      name: vídeo
+hide_from_announcments: false
 ---
-**Leituras Sugeridas:**
 
