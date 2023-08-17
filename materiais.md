@@ -10,11 +10,12 @@ permalink: /materiais/
 
 ### Livro-texto
 
--  [The Science of Deep Learning](https://www.thescienceofdeeplearning.org/), Iddo Drori
+- [The Science of Deep Learning](https://www.thescienceofdeeplearning.org/), Iddo Drori
 
 ### Livros complementares
 
 - [Deep Learning](https://www.deeplearningbook.org/), Ian Goodfellow, Yoshua Bengio e Aaron Courville
+- [Artificial Intelligence: A Modern Approach](https://aima.cs.berkeley.edu/), Stuart Russel and Peter Norvig
 
 ## Tecnologias
 
