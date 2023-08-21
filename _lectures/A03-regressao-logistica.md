@@ -6,12 +6,11 @@ title: Regressão Logística
 tldr: "Regressão Logística como uma rede neural para problemas linearmente separáveis."
 # thumbnail: /static_files/presentations/lec.jpg
 links: 
-    - url: /static_files/presentations/lec.zip
-      name: notas
-    # - url: /static_files/presentations/code.zip
-    #   name: código
-    - url: https://google.com
+    - url: /static_files/slides/A03-regressao-logistica.pdf
       name: slides
-hide_from_announcments: true
+    - url: https://youtu.be/bwKY853-100
+      name: vídeo
+hide_from_announcments: false
 ---
 **Leituras Sugeridas:**
+- Speech and Language Processing, [Cap. 5 (Logistic Regression)](https://web.stanford.edu/~jurafsky/slp3/5.pdf), Pags. 96-105
