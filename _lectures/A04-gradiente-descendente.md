@@ -13,5 +13,5 @@ links:
 hide_from_announcments: false
 ---
 **Leituras Sugeridas:**
-- Deep Learning, [4. Numerical Computation](https://www.deeplearningbook.org/contents/numerical.html), Pags. 80-84
-- Artificial Intelligence: A Modern Approach, 19. Learning from Examples, Pags. 700-720 
+- Deep Learning, [Cap. 4: Numerical Computation](https://www.deeplearningbook.org/contents/numerical.html), Pags. 80-84
+- Artificial Intelligence: A Modern Approach, Cap. 19: Learning from Examples, Pags. 676-679 
