@@ -6,12 +6,12 @@ title: Gradiente Descendente
 tldr: "Otimização de pesos de redes neurais com gradiente descendente."
 # thumbnail: /static_files/presentations/lec.jpg
 links: 
-    - url: /static_files/presentations/lec.zip
-      name: notas
-    # - url: /static_files/presentations/code.zip
-    #   name: código
-    - url: https://google.com
+    - url: /static_files/slides/A04-gradiente-descendente.pdf
       name: slides
-hide_from_announcments: true
+    - url: https://youtu.be/8PLy4GVtVFk?si=aKA0EvhtVb60L_9G
+      name: vídeo
+hide_from_announcments: false
 ---
 **Leituras Sugeridas:**
+- Deep Learning, [4. Numerical Computation](https://www.deeplearningbook.org/contents/numerical.html), Pags. 80-84
+- Artificial Intelligence: A Modern Approach, 19. Learning from Examples, Pags. 700-720 

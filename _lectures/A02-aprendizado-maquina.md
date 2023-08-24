@@ -13,5 +13,5 @@ links:
 hide_from_announcments: false
 ---
 **Leituras Sugeridas:**
-- Deep Learning, [Cap. 5 (Machine Learning Basics)](https://www.deeplearningbook.org/contents/ml.html), Pags. 96-105
-- Artificial Intelligence: A Modern Approach, Cap. 19 (Learning from Examples), Pags. 651-657 
+- Deep Learning, [5. Machine Learning Basics](https://www.deeplearningbook.org/contents/ml.html), Pags. 96-105
+- Artificial Intelligence: A Modern Approach, 19. Learning from Examples, Pags. 651-657 
