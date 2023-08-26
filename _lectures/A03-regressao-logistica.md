@@ -13,4 +13,4 @@ links:
 hide_from_announcments: false
 ---
 **Leituras Sugeridas:**
-- Speech and Language Processing, [Cap. 5: Logistic Regression](https://web.stanford.edu/~jurafsky/slp3/5.pdf), Pags. 96-105
+- Speech and Language Processing, [Cap. 5: Logistic Regression](https://web.stanford.edu/~jurafsky/slp3/5.pdf), Pags. 1-15
