@@ -10,6 +10,6 @@ links:
       # name: código
     - url: https://youtu.be/LPRSBwYaeeU
       name: vídeo
-hide_from_announcments: true
+hide_from_announcments: false
 ---
 **Leituras Sugeridas:**
