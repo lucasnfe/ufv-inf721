@@ -8,7 +8,7 @@ tldr: "Aula prática sobre implementação de regressão logística com Numpy."
 links: 
     # - url: /static_files/slides/A04-gradiente-descendente.pdf
       # name: código
-    - url: https://youtu.be/LPRSBwYaeeU
+    - url: https://youtu.be/OmflDT1w7oI
       name: vídeo
 hide_from_announcments: false
 ---
