@@ -6,13 +6,13 @@ title: Multilayer Perceptron (MLP)
 tldr: "Redes neurais com múltiplas camadas para problemas linearmente não-separáveis"
 # thumbnail: /static_files/presentations/lec.jpg
 links: 
-    - url: /static_files/presentations/lec.zip
-      name: notas
-    # - url: /static_files/presentations/code.zip
-    #   name: código
-    - url: https://google.com
+    - url: /static_files/slides/A06-multilayer-perceptron.pdf
       name: slides
-hide_from_announcments: true
+    - url: https://youtu.be/6-nT0iJ_JgA
+      name: vídeo 1
+    - url: https://youtu.be/aQ6w8rMYla0
+      name: vídeo 2
+hide_from_announcments: false
 ---
 **Leituras Sugeridas:**
-
+- Deep Learning, [Cap. 6: Deep Feedforward Networks](https://www.deeplearningbook.org/contents/mlp.html), Pags. 164-199

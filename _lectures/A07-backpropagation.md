@@ -6,12 +6,11 @@ title: Backpropagation
 tldr: "Otimização de pesos de redes neurais profundas com gradiente descendente."
 # thumbnail: /static_files/presentations/lec.jpg
 links: 
-    - url: /static_files/presentations/lec.zip
-      name: notas
-    # - url: /static_files/presentations/code.zip
-    #   name: código
-    - url: https://google.com
+    - url: /static_files/slides/A07-backpropagation.pdf
       name: slides
-hide_from_announcments: true
+    # - url: https://youtu.be/8PLy4GVtVFk?si=aKA0EvhtVb60L_9G
+    #   name: vídeo
+hide_from_announcments: false
 ---
 **Leituras Sugeridas:**
+- Deep Learning, [Cap. 6: Deep Feedforward Networks](https://www.deeplearningbook.org/contents/mlp.html), Pags. 200-209
