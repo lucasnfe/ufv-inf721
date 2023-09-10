@@ -8,8 +8,8 @@ tldr: "Otimização de pesos de redes neurais profundas com gradiente descendent
 links: 
     - url: /static_files/slides/A07-backpropagation.pdf
       name: slides
-    # - url: https://youtu.be/8PLy4GVtVFk?si=aKA0EvhtVb60L_9G
-    #   name: vídeo
+    - url: https://youtu.be/RWW5Y-pptR8
+      name: vídeo
 hide_from_announcments: false
 ---
 **Leituras Sugeridas:**
