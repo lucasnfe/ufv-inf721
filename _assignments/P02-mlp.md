@@ -1,6 +1,6 @@
 ---
 type: assignment
-date: 2023-09-25T15:30
+date: 2023-09-25T23:59
 title: 'P2: Multilayer Perceptron'
 permalink: /trabalhos-praticos/p2-multilayer-perceptron/
 hide_from_announcments: false
@@ -9,7 +9,7 @@ hide_from_announcments: false
 # solutions: /static_files/assignments/asg_solutions.pdf
 due_event: 
     type: due
-    date: 2023-09-25T15:30
+    date: 2023-09-25T23:59
     description: 'Entrega P2: Multilayer Perceptron'
 ---
 
