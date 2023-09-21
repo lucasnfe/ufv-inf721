@@ -8,8 +8,11 @@ tldr: "Algoritmos de otimização avançados: Mini-batch, Momentum, AdaGrad, RMS
 links: 
     - url: /static_files/slides/A10-otimizacao.pdf
       name: slides
+    - url: https://colab.research.google.com/drive/1Fj978-pXr4zLiNy-jLQ-CB4RdfxY7TUW?usp=sharing
+      name: código      
     # - url: https://youtu.be/RWW5Y-pptR8
     #   name: vídeo
+
 hide_from_announcments: false
 ---
 **Leituras Sugeridas:**
