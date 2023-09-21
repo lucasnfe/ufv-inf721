@@ -1,6 +1,6 @@
 ---
 type: assignment
-date: 2023-09-06T15:30
+date: 2023-08-28T17:00
 title: 'P1: Regressão Logística'
 permalink: 'avaliacao/p1-regressao-logistica/'
 hide_from_announcments: false

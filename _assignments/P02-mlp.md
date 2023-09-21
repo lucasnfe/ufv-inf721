@@ -1,6 +1,6 @@
 ---
 type: assignment
-date: 2023-09-25T23:59
+date: 2023-09-08T23:59
 title: 'P2: Multilayer Perceptron'
 permalink: /trabalhos-praticos/p2-multilayer-perceptron/
 hide_from_announcments: false
