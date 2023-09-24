@@ -13,5 +13,5 @@ links:
 hide_from_announcments: false
 ---
 **Leituras Sugeridas:**
-- The Science of Deep Learning, [Cap. 2: Forward and Backpropagation], Pags. 21-33
+- The Science of Deep Learning, Cap. 2: Forward and Backpropagation, Pags. 21-33
 - Deep Learning, [Cap. 6: Deep Feedforward Networks](https://www.deeplearningbook.org/contents/mlp.html), Pags. 200-209

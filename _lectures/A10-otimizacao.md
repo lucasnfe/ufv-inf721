@@ -18,5 +18,5 @@ links:
 hide_from_announcments: false
 ---
 **Leituras Sugeridas:**
-- The Science of Deep Learning, [Cap. 3: Optimization for Training Models], Pags. 35-47
+- The Science of Deep Learning, Cap. 3: Optimization for Training Models, Pags. 35-47
 - Deep Learning, [Cap. 8: Optimization](https://www.deeplearningbook.org/contents/optimization.html), Pags. 290-296, 302-305
