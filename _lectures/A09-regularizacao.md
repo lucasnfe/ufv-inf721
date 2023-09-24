@@ -6,12 +6,12 @@ title: Regularização
 tldr: "Melhorando o desempenho de redes neurais com regularização."
 # thumbnail: /static_files/presentations/lec.jpg
 links: 
-    - url: /static_files/presentations/lec.zip
-      name: notas
-    # - url: /static_files/presentations/code.zip
-    #   name: código
-    - url: https://google.com
+    - url: /static_files/slides/A09-regularizacao.pdf
       name: slides
-hide_from_announcments: true
+    # - url: https://colab.research.google.com/drive/1Fj978-pXr4zLiNy-jLQ-CB4RdfxY7TUW?usp=sharing
+    #   name: código      
+hide_from_announcments: false
 ---
 **Leituras Sugeridas:**
+- The Science of Deep Learning, [Cap. 4: Regularization], Pags. 56-64
+- Deep Learning, [Cap. 7: Regularization for Deep Learning](https://www.deeplearningbook.org/contents/regularization.html), Pags. 224-238
