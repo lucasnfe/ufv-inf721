@@ -10,8 +10,10 @@ links:
       name: slides
     - url: https://colab.research.google.com/drive/1Fj978-pXr4zLiNy-jLQ-CB4RdfxY7TUW?usp=sharing
       name: código      
-    # - url: https://youtu.be/RWW5Y-pptR8
-    #   name: vídeo
+    - url: https://youtu.be/tzCLhft3mpA
+      name: vídeo 1
+    - url: https://youtu.be/SSkO_ZG0pa4
+      name: vídeo 2
 
 hide_from_announcments: false
 ---
