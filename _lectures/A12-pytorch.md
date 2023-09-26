@@ -10,7 +10,7 @@ links:
       name: código
     - url: https://youtu.be/owSO_iMzjAs
       name: vídeo
-hide_from_announcments: true
+hide_from_announcments: false
 ---
 **Leituras Sugeridas:**
 - [Introduction to Pytorch](https://pytorch.org/tutorials/beginner/introyt.html)
