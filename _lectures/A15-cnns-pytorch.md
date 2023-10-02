@@ -6,13 +6,11 @@ title: CNNs em Pytorch
 tldr: "Aula prática sobre implementação de CNNs com Pytorch."
 # thumbnail: /static_files/presentations/lec.jpg
 links: 
-    - url: /static_files/presentations/lec.zip
-      name: notas
-    # - url: /static_files/presentations/code.zip
-    #   name: código
-    - url: https://google.com
-      name: slides
-hide_from_announcments: true
+    - url: https://colab.research.google.com/drive/1JTgut_CSuFPVZUAL-FYr5tP-pDCckDwd?usp=sharing
+      name: código
+    # - url: https://youtu.be/OmflDT1w7oI
+    #   name: vídeo
+hide_from_announcments: false
 ---
-**Leituras Sugeridas:**
+<!-- **Leituras Sugeridas:** -->
 
