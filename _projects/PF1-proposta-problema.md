@@ -25,7 +25,7 @@ Nessa primeira etapa, você irá propor o problema de aprendizado que deseja tra
 
 1. **Título e Autores** (1 slide) 
 
-    Apresente o título do projeto, o nome dos membros do grupo, o nome da disciplina e o semestre atual (2023/2). 
+    Apresente o título do projeto, o nome dos membros do grupo (máximo 3 alunos), o nome da disciplina e o semestre atual (2023/2). 
 
 2. **Introdução** (1-2 slides) 
 
