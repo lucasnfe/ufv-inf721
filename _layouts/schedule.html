@@ -69,7 +69,7 @@ layout: default
                                 {% endif %}
                             {% endfor %}  
 
-                            <!-- Check for assignment due dates -->
+                            <!-- Check for quizz due dates -->
                             {% assign quizz_due_match = Nil %}
                             {% for quiz_due in all_quizzes_dues %}
                                 {% assign due_date = quiz_due.date | date: site.dateformat %}
