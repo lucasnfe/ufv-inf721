@@ -7,7 +7,7 @@ permalink: projeto/proposta-problema/
 hide_from_announcments: false
 due_event: 
     type: due
-    date: 2023-10-16T23:59
+    date: 2023-10-18T23:59
     description: 'Entrega PF: Proposta de Problema'
 ---
 
