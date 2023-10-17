@@ -8,9 +8,10 @@ tldr: "Aula prática sobre implementação de CNNs com Pytorch."
 links: 
     - url: https://colab.research.google.com/drive/1JTgut_CSuFPVZUAL-FYr5tP-pDCckDwd?usp=sharing
       name: código
-    # - url: https://youtu.be/OmflDT1w7oI
-    #   name: vídeo
+    - url: https://youtu.be/G1IMkDGN6uA
+      name: vídeo
 hide_from_announcments: false
 ---
-<!-- **Leituras Sugeridas:** -->
+**Leituras Sugeridas:**
+- [LeNet in Pytorch](https://pytorch.org/tutorials/beginner/blitz/neural_networks_tutorial.html)
 

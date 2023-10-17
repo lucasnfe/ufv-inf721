@@ -8,6 +8,10 @@ tldr: "CNNs para problemas de aprendizado com imagens."
 links: 
     - url: /static_files/slides/A13-cnn.pdf
       name: slides
+    - url: https://youtu.be/fTcBWsESIic
+      name: vídeo 1
+    - url: https://youtu.be/U2A89JAR4Qc
+      name: vídeo 2
 hide_from_announcments: false
 ---
 **Leituras Sugeridas:**
