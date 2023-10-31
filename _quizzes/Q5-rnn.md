@@ -1,6 +1,6 @@
 ---
 type: raw_event
-date: 2023-10-30T10:50
+date: 2023-11-01T10:50
 name: Q5
 description: 'T5: Redes Neurais Recorrentes'
 hide_from_announcments: true

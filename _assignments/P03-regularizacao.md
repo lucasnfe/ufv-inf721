@@ -9,7 +9,7 @@ hide_from_announcments: false
 # solutions: /static_files/assignments/asg_solutions.pdf
 due_event: 
     type: due
-    date: 2023-10-13T23:59
+    date: 2023-10-11T23:59
     description: 'Entrega P3: Otimização'
 ---
 

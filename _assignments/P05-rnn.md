@@ -9,7 +9,7 @@ hide_from_announcments: true
 # solutions: /static_files/assignments/asg_solutions.pdf
 due_event: 
     type: due
-    date: 2023-11-06T07:30
+    date: 2023-11-15T07:30
     description: 'Entrega P5: RNNs'
 ---
 

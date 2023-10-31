@@ -10,7 +10,7 @@ hide_from_announcments: true
 # solutions: /static_files/assignments/asg_solutions.pdf
 due_event: 
     type: due
-    date: 2023-11-27T10:00
+    date: 2023-11-29T10:00
     description: 'Entrega Projeto Final'
 ---
 
