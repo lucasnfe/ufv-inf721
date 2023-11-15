@@ -23,4 +23,4 @@ O notebook é autoexplicativo, portanto siga suas instruções para implementar 
 
 ## Submissão
 
-Quando tiver terminado a sua implementação, faça download do notebook e o submeta na tarefa `P45 Redes Neurais Recorrentes` do PVANet.
+Quando tiver terminado a sua implementação, faça download do notebook e o submeta na tarefa `P5: Redes Neurais Recorrentes` do PVANet.
