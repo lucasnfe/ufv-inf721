@@ -19,7 +19,7 @@ Abra o notebook `p2-multilayer-perceptron.ipynb` via Google Colab [[**nesse link
 
 ## Instruções
 
-O notebook é autoexplicativo, portanto siga suas instruções para implementar cada etapa de uma rede Multilayer Perceptron. 
+O notebook é autoexplicativo, portanto siga suas instruções para implementar sua MLP. 
 
 ## Submissão
 

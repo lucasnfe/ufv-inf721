@@ -19,7 +19,7 @@ Abra o notebook `p4-cnn.ipynb` via Google Colab [[**nesse link**]](https://colab
 
 ## Instruções
 
-O notebook é autoexplicativo, portanto siga suas instruções para implementar uma rede neural convolucional (CNN). 
+O notebook é autoexplicativo, portanto siga suas instruções para implementar sua rede neural convolucional (CNN). 
 
 ## Submissão
 

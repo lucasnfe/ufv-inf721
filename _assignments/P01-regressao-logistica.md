@@ -19,7 +19,7 @@ Abra o notebook `p1-regressao-logistica.ipynb` via Google Colab [[**nesse link**
 
 ## Instruções
 
-O notebook é autoexplicativo, portanto siga suas instruções para implementar cada etapa da regressão logística. 
+O notebook é autoexplicativo, portanto siga suas instruções para implementar sua regressão logística. 
 
 ## Submissão
 
