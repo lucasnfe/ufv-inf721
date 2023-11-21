@@ -6,13 +6,14 @@ title: Redes Neurais Recorrentes (RNNs)
 tldr: "RNNs para problemas de aprendizado com sequências."
 # thumbnail: /static_files/presentations/lec.jpg
 links: 
-    - url: /static_files/presentations/lec.zip
-      name: notas
-    # - url: /static_files/presentations/code.zip
-    #   name: código
-    - url: https://google.com
+    - url: /static_files/slides/A16-rnn.pdf
       name: slides
-hide_from_announcments: true
+    - url: https://youtu.be/2_8ZezxGXy8
+      name: vídeo 1
+    - url: https://youtu.be/mlGKU_9AQqw
+      name: vídeo 2
+hide_from_announcments: false
 ---
 **Leituras Sugeridas:**
-
+- The Science of Deep Learning, Cap. 6: Sequence Models, Pags. 91-102
+- Deep Learning, [Cap. 10: Recurrentand Recursive Nets](https://www.deeplearningbook.org/contents/rnn.html), Pags. 367-380
