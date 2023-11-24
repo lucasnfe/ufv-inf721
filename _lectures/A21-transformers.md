@@ -11,4 +11,6 @@ links:
 hide_from_announcments: false
 ---
 **Leituras Sugeridas:**
+- The Science of Deep Learning, Cap. 8: Transformers, Pags. 142-150
+- Artificial Intelligence: A Modern Approach, Cap 24: Deep Learning For Natural Language Processing, Pags. 868-871 
 - [Illustrated Guide to Transformers- Step by Step Explanation](https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0)
