@@ -16,4 +16,4 @@ hide_from_announcments: false
 ---
 **Leituras Sugeridas:**
 - The Science of Deep Learning, Cap. 6: Sequence Models, Pags. 91-102
-- Deep Learning, [Cap. 10: Recurrentand Recursive Nets](https://www.deeplearningbook.org/contents/rnn.html), Pags. 367-380
+- Deep Learning, [Cap. 10: Recurrent and Recursive Nets](https://www.deeplearningbook.org/contents/rnn.html), Pags. 367-380
