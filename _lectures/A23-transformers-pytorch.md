@@ -6,12 +6,9 @@ title: Transformers em Pytorch
 tldr: "Aula prática sobre implementação de Transformers com Pytorch."
 # thumbnail: /static_files/presentations/lec.jpg
 links: 
-    - url: /static_files/presentations/lec.zip
-      name: notas
-    # - url: /static_files/presentations/code.zip
-    #   name: código
-    - url: https://google.com
-      name: slides
-hide_from_announcments: true
+    - url: https://colab.research.google.com/github/harvardnlp/annotated-transformer/blob/master/AnnotatedTransformer.ipynb
+      name: código
+hide_from_announcments: false
 ---
 **Leituras Sugeridas:**
+- [Language Modeling with Transformer and Torchtext](https://pytorch.org/tutorials/beginner/transformer_tutorial.html#language-modeling-with-nn-transformer-and-torchtext)

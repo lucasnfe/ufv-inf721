@@ -11,4 +11,4 @@ links:
 hide_from_announcments: false
 ---
 **Leituras Sugeridas:**
-
+- [Illustrated Guide to Transformers- Step by Step Explanation](https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0)
