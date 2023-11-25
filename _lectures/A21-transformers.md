@@ -8,6 +8,8 @@ tldr: "Transformers para problemas de aprendizado com sequências."
 links: 
     - url: /static_files/slides/A21-transformers.pdf
       name: slides
+    - url: https://youtu.be/EgCg2ObCITw
+      name: vídeo
 hide_from_announcments: false
 ---
 **Leituras Sugeridas:**
