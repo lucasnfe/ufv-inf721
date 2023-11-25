@@ -12,5 +12,5 @@ hide_from_announcments: false
 ---
 **Leituras Sugeridas:**
 - The Science of Deep Learning, Cap. 6: Sequence Models, Pags. 102-115
-- [Understanding LSTM Network](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+- [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
