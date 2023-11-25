@@ -6,12 +6,10 @@ title: Representação de Palavras
 tldr: "Utilizando RNNs para representação de palavras (word embeddings) e processamento de textos."
 # thumbnail: /static_files/presentations/lec.jpg
 links: 
-    - url: /static_files/presentations/lec.zip
-      name: notas
-    # - url: /static_files/presentations/code.zip
-    #   name: código
-    - url: https://google.com
-      name: slides
-hide_from_announcments: true
+    - url: https://youtu.be/5GuSctqvH2g
+      name: vídeo
+hide_from_announcments: false
 ---
 **Leituras Sugeridas:**
+- The Science of Deep Learning, Cap. 6: Sequence Models, Pags. 121-122
+- Artificial Intelligence: A Modern Approach, Cap 24: Deep Learning For Natural Language Processing, Pags. 856-860 

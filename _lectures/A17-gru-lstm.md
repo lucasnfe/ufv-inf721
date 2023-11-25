@@ -6,13 +6,11 @@ title: GRU e LSTM
 tldr: "Arquiteturas recorrentes avançadas para processamento de sequências longas."
 # thumbnail: /static_files/presentations/lec.jpg
 links: 
-    - url: /static_files/presentations/lec.zip
-      name: notas
-    # - url: /static_files/presentations/code.zip
-    #   name: código
-    - url: https://google.com
-      name: slides
-hide_from_announcments: true
+    - url: https://youtu.be/kJ3REZ6JDUM
+      name: vídeo
+hide_from_announcments: false
 ---
 **Leituras Sugeridas:**
+- The Science of Deep Learning, Cap. 6: Sequence Models, Pags. 102-115
+- [Understanding LSTM Network](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
