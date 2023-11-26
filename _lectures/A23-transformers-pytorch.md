@@ -8,6 +8,8 @@ tldr: "Aula prática sobre implementação de Transformers com Pytorch."
 links: 
     - url: https://colab.research.google.com/github/harvardnlp/annotated-transformer/blob/master/AnnotatedTransformer.ipynb
       name: código
+    - url: https://youtu.be/Us24O5nhF34
+      name: vídeo
 hide_from_announcments: false
 ---
 **Leituras Sugeridas:**
