@@ -67,3 +67,4 @@ Para entregar a sua apresentação, envie o link da sua apresentação na tarefa
 
 - Exemplos de Projetos de Pesquisa no GitHub:
     - [Controlling Perceived Emotion in Symbolic Music Generation with Monte Carlo Tree Search](https://github.com/lucasnfe/puct-music-emotion)
+    - [Aula "How to Speak" sobre como apresentar ideias técnicas, Patrick Winston, MIT](https://www.youtube.com/watch?v=Unzc731iCUY&t=51s&ab_channel=MITOpenCourseWare)
