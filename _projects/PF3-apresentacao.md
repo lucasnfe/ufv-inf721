@@ -63,7 +63,7 @@ Essa etapa final terá requisitos diferentes para os alunos de graduação e de 
 
 Para entregar a sua apresentação, envie o link da sua apresentação na tarefa `PF: Apresentação` do PVANet. **Apenas um membro do grupo precisa fazer a submissão**. 
 
-**Referências** 
+## Referências
 
 - Exemplos de Projetos de Pesquisa no GitHub:
     - [Controlling Perceived Emotion in Symbolic Music Generation with Monte Carlo Tree Search](https://github.com/lucasnfe/puct-music-emotion)
