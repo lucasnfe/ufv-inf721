@@ -63,7 +63,7 @@ Essa etapa final terá requisitos diferentes para os alunos de graduação e de 
 
 ## Submissão
 
-Para entregar a sua apresentação, envie o link da sua apresentação na tarefa `PF: Apresentação` do PVANet. **Apenas um membro do grupo precisa fazer a submissão**. 
+Para entregar o seu trabalho, envie (1) a link da sua apresentação, (2) o link do seu repositório e (3) um arquivo pdf com o texto do seu relatório (opcional para a graduação) na tarefa `PF: Apresentação` do PVANet. **Apenas um membro do grupo precisa fazer a submissão**. 
 
 ## Referências
 
