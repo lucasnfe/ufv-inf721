@@ -16,7 +16,7 @@ due_event:
 
 ## Introdução
 
-Essa é a última etapa do Projeto Final de INF721. Nela, você irá apresentar o seu trabalho em sala de aula e submeter seu código, modelo e relatório. Até agora, você implementou os trabalhos práticos usando o Google Colab. No entanto, em projetos ciêntíficos de Deep Learning, o código-fonte e o modelo treinado geralmente são publicados via GitHub, visando facilitar a reprodução dos resultados. Assim, nessa etapa, além de uma apresentação, você irá preparar um repositório no GitHub seguindo os moldes dos projetos de Deep Learning.
+Essa é a última etapa do Projeto Final de INF721. Nela, você irá apresentar o seu trabalho em sala de aula e submeter seu código, modelo e relatório. Até agora, você implementou os trabalhos práticos usando o Google Colab. No entanto, em projetos ciêntíficos de Deep Learning, o código-fonte e o modelo treinado geralmente são publicados via GitHub, visando facilitar a reprodução dos resultados. Assim, nessa etapa, além de uma apresentação, você irá preparar um repositório no GitHub nos moldes dos projetos científicos de Deep Learning.
 
 ## Objetivo
 
@@ -24,7 +24,7 @@ O objetivo principal dessa etapa é praticar a apresentação de resultados cien
 
 ## Instruções
 
-Essa etapa final terá requisitos diferentes para os alunos de graduação e de pós-graduação. Em ambos os casos, os alunos terão que apresentar o trabalho em sala de aula e submeter o código. No entanto o relatório será obrigatório apenas para os alunos de pós-graduação. Para os alunos da graduação, ele poderá ser entrega como avaliação extra. 
+Essa etapa final terá requisitos diferentes para os alunos de graduação e de pós-graduação. Em ambos os casos, os alunos terão que apresentar o trabalho em sala de aula e submeter o código. No entanto **o relatório será obrigatório apenas para os alunos de pós-graduação. Para os alunos da graduação, ele poderá ser entrega como avaliação extra**. 
 
 1. **Apresentação**
 
@@ -59,6 +59,8 @@ Essa etapa final terá requisitos diferentes para os alunos de graduação e de 
 
     Essa etapa é obrigatória para alunos da pós-graduação e extra para os da graduação. O seu relatório deve ter o formato de um resumo expandido de no máximo 2 páginas (1 coluna, espaçamento 1.5, margem 2.5cm). O relatório deve conter o mesmo conteúdo da apresentação, mas apresentado em um estilo acadêmico de escrita.
 
+    **Para os alunos da graduação, a nota do relatório irá substuir a nota do menor teste. Caso a nota do seu relatório seja menor que a nota do menor teste, não haverá substituição.**
+
 ## Submissão
 
 Para entregar a sua apresentação, envie o link da sua apresentação na tarefa `PF: Apresentação` do PVANet. **Apenas um membro do grupo precisa fazer a submissão**. 
@@ -66,7 +68,7 @@ Para entregar a sua apresentação, envie o link da sua apresentação na tarefa
 ## Referências
 
 - Exemplos de Projetos de Pesquisa no GitHub:
-    - [Controlling Perceived Emotion in Symbolic Music Generation with Monte Carlo Tree Search](https://github.com/lucasnfe/puct-music-emotion)
+    - [Ferreira, Lucas N., et al. "Controlling perceived emotion in symbolic music generation with monte carlo tree search." Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment. Vol. 18. No. 1. 2022.](https://github.com/lucasnfe/puct-music-emotion)
 
 - Como preparar apresentações:
     - [Aula "How to Speak", Patrick Winston, MIT](https://www.youtube.com/watch?v=Unzc731iCUY&t=51s&ab_channel=MITOpenCourseWare)
