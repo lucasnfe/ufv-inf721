@@ -36,18 +36,18 @@ Essa etapa final terá requisitos diferentes para os alunos de graduação e de 
     - O procedimento de treinamento aplicado (~1 minuto);
     - Os resultados obtidos (~2 minutos).
     
-    Na primeira etapa do projeto final você introduziu o problema e a base. Portanto, nessa etapa, modifique seus slides para descrever a arquitura e o processo de treinamento. Para apresentar a arquitetura, utilize um diagrama que mostre as camadas de entrada, escondidas e de saída. Para o treinamento, crie uma tabela com o número de épocas, tipo de otimizador, taxa de aprendizado, e todos os outros híper-parâmetros relevantes. Os resultados podem ser apresentados em formato de tabela ou gráfico, o que for melhor para o seu caso. Foque nos resultados positivos, mas não se esqueça de comentar os desafios (i.e., resultados negativos) encontrados ao longo do projeto. Se você alterou a sua base de alguma forma durante o projeto, descreva esses ajustes feitos na base de dados se for necessário. 
+    Na primeira etapa do projeto final você introduziu o problema e a base de dados. Portanto, nessa etapa, modifique seus slides para descrever a arquitura e o processo de treinamento. Para apresentar a arquitetura, utilize um diagrama que mostre as camadas de entrada, escondidas e de saída. Para o treinamento, crie uma tabela com o número de épocas, tipo de otimizador, taxa de aprendizado, e todos os outros híper-parâmetros relevantes. Os resultados podem ser apresentados em formato de tabela ou gráfico, o que for melhor para o seu caso. Foque nos resultados positivos, mas não se esqueça de comentar os desafios (i.e., resultados negativos) encontrados ao longo do projeto. Se você alterou a sua base de dados de alguma forma durante o projeto, descreva os ajustes feitos. 
 
 2. **Código Fonte** 
 
-    O código-fonte do seu modelo deve ser publicado como um repositório GitHub. O código-fonte deve estar funcional e possibilitar a reprodução dos resultados apresentados. O seu código deve conter ao menos quatro scipts python:
+    O código-fonte do seu projeto deve ser publicado como um repositório GitHub. O código-fonte deve estar funcional e possibilitar a reprodução dos resultados apresentados. O seu código deve conter ao menos quatro scripts python:
 
-    - `inf721_dataset.py`: para definir o seu conjunto de dados estendendo a classe Dataset do Pytorch;
-    - `inf721_model.py`: para definir o seu modelo neural estendeno a classe Module do Pytorch;
-    - `inf721_train.py`: para deinir o seu procedimento de treinamento e salvar os pesos;
-    - `inf721_inference.py`: para carregar um modelo salvo e realizar inferências.
+    - `inf721_dataset.py`: define o seu conjunto de dados estendendo a classe Dataset do Pytorch;
+    - `inf721_model.py`: define o seu modelo neural estendeno a classe Module do Pytorch;
+    - `inf721_train.py`: executa o seu procedimento de treinamento e salvar os pesos;
+    - `inf721_inference.py`: carrega um modelo salvo e realizar inferências.
     
-    Sinta-se à vontade para adicionar mais scripts ao seu repositório. Por exemplo, para fazer a limpeza dos dados ou para gerar gráficos dos resultados. Além do código, você deve criar um arquivo README.me contendo as seguintes informações (nessa order): 
+    Sinta-se à vontade para adicionar mais scripts ao seu repositório. Por exemplo, para fazer a limpeza dos dados ou gerar gráficos dos resultados. Além do código, você deve criar um arquivo README.me contendo as seguintes informações (nessa order): 
     
     - O título do projeto;
     - Uma breve descrição do projeto (~1 parágrafo);
