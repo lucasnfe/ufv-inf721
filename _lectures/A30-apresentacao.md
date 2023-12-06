@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2023-11-29T14:00
+date: 2023-11-27T14:00
 index: 30
 title: Apresentações dos Projetos Finais
 tldr: "Apresentação dos projetos finais desenvolidos pelos alunos."

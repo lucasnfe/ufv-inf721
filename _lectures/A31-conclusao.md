@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2023-11-27T14:00
+date: 2023-11-29T14:00
 index: 31
 title: Conclusão
 tldr: "Revisão dos tópicos vistos na disiciplina e recomendações de atividades futuras."
@@ -12,4 +12,3 @@ links:
       name: vídeo
 hide_from_announcments: false
 ---
-**Leituras Sugeridas:**
