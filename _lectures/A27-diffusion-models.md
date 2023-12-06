@@ -2,7 +2,7 @@
 type: lecture
 date: 2023-11-22T14:00
 index: 27
-title: Diffusion Models
+title: ~~Diffusion Models~~
 tldr: "Diffusion Models como modelos generativos e suas aplicações."
 # thumbnail: /static_files/presentations/lec.jpg
 links: 

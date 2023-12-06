@@ -6,12 +6,10 @@ title: Estudo de Casos de Transformers
 tldr: "BERT e GPT."
 # thumbnail: /static_files/presentations/lec.jpg
 links: 
-    - url: /static_files/presentations/lec.zip
-      name: notas
-    # - url: /static_files/presentations/code.zip
-    #   name: código
-    - url: https://google.com
+    - url: /static_files/slides/A22-bert-gpt.pdf
       name: slides
-hide_from_announcments: true
+    # - url: https://youtu.be/EgCg2ObCITw
+    #   name: vídeo      
+hide_from_announcments: false
 ---
 **Leituras Sugeridas:**

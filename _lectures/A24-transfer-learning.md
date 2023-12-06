@@ -2,8 +2,8 @@
 type: lecture
 date: 2023-11-08T14:00
 index: 24
-title: Transferência de Aprendizado
-tldr: "Ajuste fino de redes neurais pré-treinadas."
+title: ~~Transferência de Aprendizado~~
+tldr: "Ajuste fino de redes neurais pré-treinadas. (Ver Aula 22)"
 # thumbnail: /static_files/presentations/lec.jpg
 links: 
     - url: /static_files/presentations/lec.zip

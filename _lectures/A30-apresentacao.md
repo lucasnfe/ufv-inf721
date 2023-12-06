@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2023-11-29T14:00
-index: 31
+index: 30
 title: Apresentações dos Projetos Finais
 tldr: "Apresentação dos projetos finais desenvolidos pelos alunos."
 # thumbnail: /static_files/presentations/lec.jpg
