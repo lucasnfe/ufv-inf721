@@ -2,7 +2,7 @@
 type: lecture
 date: 2023-09-18T14:00
 index: 11
-title: Ajuste de Hiperparâmetros
+title: <s>Ajuste de Hiperparâmetros</s>
 tldr: "Melhorando o desempenho de redes neurais com ajusde de hiperparâmetros."
 # thumbnail: /static_files/presentations/lec.jpg
 links: 
