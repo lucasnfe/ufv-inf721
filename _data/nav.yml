@@ -19,6 +19,10 @@ items:
   name: Avaliação
   icon_class: fas 
 
+- url: /projetos/
+  name: Projetos
+  icon_class: fas   
+
 - url: /materiais/
   name: Materiais
   icon_class: fas 
