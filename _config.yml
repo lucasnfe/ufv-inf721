@@ -8,8 +8,8 @@ semester_end: 2023-12-04T08:00
 lectures_hours: CCE416, Segunda-feira, 14:00-15:40h<br>CCE416, Quarta-feira, 16:00-17:40h
 labs_hours: CCE408, Quarta-feira, 16-18h
 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://ufv-inf721.lucasnferreira.com" # the base hostname & protocol for your site
+baseurl: "/ufv-inf721/" # the subpath of your site, e.g. /blog/
+url: "https://lucasnfe.github.io" # the base hostname & protocol for your site
 
 schoolname: "Universidade Federal de Viçosa"
 schoolurl: "https://www.ufv.br"
